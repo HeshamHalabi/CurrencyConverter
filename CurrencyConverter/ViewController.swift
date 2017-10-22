@@ -60,5 +60,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
         yenLabel.text = "0.0"
         euroLabel.text = "0.0"
     }
+    //lets test commit command of the version control
 }
 
