@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="XI5-Wq-grk">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="NEm-bb-fy2">
+            <objects>
+                <viewController id="XI5-Wq-grk" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cco-dv-wuQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pound-yen-euro-dollar.png" translatesAutoresizingMaskIntoConstraints="NO" id="mNS-va-yP3">
+                                <rect key="frame" x="-32" y="255" width="439" height="157"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.83605272964307376" green="0.83615850772394862" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="mNS-va-yP3" firstAttribute="centerY" secondItem="cco-dv-wuQ" secondAttribute="centerY" id="3yQ-t5-EfV"/>
+                            <constraint firstItem="mNS-va-yP3" firstAttribute="centerX" secondItem="cco-dv-wuQ" secondAttribute="centerX" id="nDh-iX-46N"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="RH1-MG-a5R"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AUg-yh-8dt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="57" y="135"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="pound-yen-euro-dollar.png" width="439" height="157"/>
+    </resources>
+</document>

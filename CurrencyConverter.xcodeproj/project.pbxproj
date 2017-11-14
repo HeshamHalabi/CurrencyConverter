@@ -13,6 +13,7 @@
 		541F1F9B1F98A71C0007805A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 541F1F9A1F98A71C0007805A /* Assets.xcassets */; };
 		541F1F9E1F98A71C0007805A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 541F1F9C1F98A71C0007805A /* LaunchScreen.storyboard */; };
 		541F1FA61F98A8240007805A /* pound-yen-euro-dollar.png in Resources */ = {isa = PBXBuildFile; fileRef = 541F1FA51F98A7430007805A /* pound-yen-euro-dollar.png */; };
+		5445C1171FBAEE11007ABAE4 /* LaunchStory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5445C1161FBAEE11007ABAE4 /* LaunchStory.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		541F1F9D1F98A71C0007805A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		541F1F9F1F98A71C0007805A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		541F1FA51F98A7430007805A /* pound-yen-euro-dollar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pound-yen-euro-dollar.png"; sourceTree = "<group>"; };
+		5445C1161FBAEE11007ABAE4 /* LaunchStory.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchStory.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				541F1F9C1F98A71C0007805A /* LaunchScreen.storyboard */,
 				541F1FA51F98A7430007805A /* pound-yen-euro-dollar.png */,
 				541F1F9F1F98A71C0007805A /* Info.plist */,
+				5445C1161FBAEE11007ABAE4 /* LaunchStory.storyboard */,
 			);
 			path = CurrencyConverter;
 			sourceTree = "<group>";
@@ -126,6 +129,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5445C1171FBAEE11007ABAE4 /* LaunchStory.storyboard in Resources */,
 				541F1F9E1F98A71C0007805A /* LaunchScreen.storyboard in Resources */,
 				541F1F9B1F98A71C0007805A /* Assets.xcassets in Resources */,
 				541F1FA61F98A8240007805A /* pound-yen-euro-dollar.png in Resources */,
